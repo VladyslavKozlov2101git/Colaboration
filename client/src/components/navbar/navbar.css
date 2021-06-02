@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+.navbar__header {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar__login {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
+.navbar__logo {
+  max-width: 40px;
+}
+.button--autho {
+  font-size: 18px;
+  font-weight: 500;
+  background: rgba(0, 87, 190, 0.1);
+  border: 1px solid #0057be;
+  padding: 5px 48px;
+  transition: all 0.5s;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.button--autho:hover {
+  background-color: #0057be;
+  color: #fff;
+}
+.button--reg {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 24px;
+  border: none;
+  color: #fff;
+  background-color: #b5a8f0;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.button--reg:hover {
+  background-color: #6f54e8;
+  color: #fff;
+}
